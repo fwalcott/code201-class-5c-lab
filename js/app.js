@@ -72,7 +72,42 @@ if (questionFive ==='yes' && questionFive ==='y') {
   alert(userName + 'Sorry. I have watched every episode of DBZ!');  
 }  
 
-var userName = alert('I hope you like my page' +  userName);  
+var questionSix = prompt('What number am I thinking of?');
+console.log(userName  +  'What number am I thinking of?'); 
+
+var myNumber = 7;
+for (var i = 0; i < 7; i++) { 
+}
+  
+  
+  if (questionSix <= myNumber) {
+    console.log('Sorry'+ userName + 'too low');
+    alert('Sorry' + userName + 'too low');  
+    prompt =('What number am I thinking of?');
+  } else if  (questionSix >= myNumber)
+    console.log('Sorry' + userName + 'too high');
+    alert('Sorry' + userName + 'too high'); 
+    prompt =('What number am I thinking of?');
+    if (questionSix === myNumber) 
+     console.log(userName + 'you are right'); 
+     alert(userName + 'you are right'); 
+     
+     var questionSeven =prompt('What is my favorite Star Wars Movie?');
+     console.log(userName + 'What is my favorite Star Wars Movie?'); 
+     questionSeven.toLowerCase();
+
+for (i = 0; i < 7; i++) {
+}
 
 
+     if (questionSeven !== 'The Empire Strikes Back') {
+      console.log('Sorry'+ userName);
+      alert('Sorry' + userName);  
+      prompt =('What is my favorite Star Wars Movie?');
+      } else { (questionSix === 'The Empire Strikes Back');
+      console.log(userName +'You got it!!!');
+      alert(userName + 'You got it!!!');
+    
 
+
+     var userName = alert('I hope you like my page' +  userName); 

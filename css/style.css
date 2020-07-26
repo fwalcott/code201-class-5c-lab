@@ -12,3 +12,13 @@ body {
   border: crimson; 
   background-color: darkgrey;
 }
+
+ol {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+ul {
+  font-style: oblique; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
